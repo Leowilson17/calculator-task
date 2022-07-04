@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="container">
+            <div class='display-box'>
+                <input id="show">
+            </div>
+            <div class="second-container">
+                <div class="first-row">
+                    <button onclick="num_1(7)">7</button>
+                    <button onclick="num_1(8)">8</button>
+                    <button onclick="num_1(9)">9</button>
+                    <button id="add" onclick="calculate('+')">+</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="num_1(4)">4</button>
+                    <button onclick="num_1(5)">5</button>
+                    <button onclick="num_1(6)">6</button>
+                    <button class.="pad" onclick="calculate('-')">-</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="num_1(1)">1</button>
+                    <button onclick="num_1(2)">2</button>
+                    <button onclick="num_1(3)">3</button>
+                    <button class="pad" onclick="calculate('*')">*</button>
+                </div>
+                <div class="first-row">
+                    <button  onclick="num_1(0)">0</button>
+                    <button onclick="num_1('.')">.</button>
+                    <button onclick="calculate('/')">/</button>
+                    <button onclick="equal()" id="sym"
+                    >=</button>
+                </div>
+
+            </div>
+        </div>
+        <script src="/script.js"></script>
+</body>
+
+</html>
